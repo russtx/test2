@@ -1,0 +1,1441 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 16, 2016, Jul 16, 2016 4:18:16 PM
+    Author     : Russ
+*/
+
+
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:320px iPhone5 Portrait
+\*--------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width:320px){
+    
+}
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:375px iPhone6 Portrait
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:375px) {
+    
+    .footerSocials ul li img.footerSocialImg {
+        margin: 0 10px;
+    }
+
+ /*========= ous service page========*/
+    .ourServicesSection{
+        .bannerArea{
+            min-height: 135px;
+        }
+    }
+    .bannerArea2{
+        min-height: 120px;
+    }
+    .bannerArea3{
+        min-height: 120px;
+    }
+    .faqArea {
+        #accordion {
+            h3{
+                font-size: 12px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+    .singleblogs{
+        .blog{
+            height: 222px;
+        }
+    }
+}
+
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:400px  iPhone6 Plus Portrait
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:400px){
+   button.scheduleButton{
+      @include span-columns(8 of 12);
+      @include shift(2 of 12); 
+   }
+   button.contactButton{
+      @include span-columns(8 of 12);
+      @include shift(2 of 12); 
+   }
+   .footerSocials ul li img.footerSocialImg {
+        margin: 0 13px;
+    }
+    .faqSection, .aboutSection{
+        min-height:450px;
+    }
+    .bannerArea2{
+        min-height: 130px;
+    }
+    .bannerArea3{
+        min-height: 130px;
+    }
+    .bannerArea4{
+        min-height: 130px;
+    }
+    .singleblogs{
+        .blog{
+            height: 240px;
+        }
+    }
+}
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:568px   iPhone5 Landscape
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:568px){
+    #vanPix img{
+        @include span-columns(6 of 12);
+        margin-top:30px;
+    }
+    #vanPix .home-page-content-area{
+        @include span-columns(6 of 12);
+    } 
+    #vanPix span img.headerIcon{
+        width: 44px;
+        margin-top:50px;
+    }
+    .home-page-content-area span#upperText p{
+        font-size: 12px;
+        margin: 33px 0 0 53px;
+    }
+    .home-page-content-area h2{
+        font-size: 32.4px;
+        left: 18px;
+    }
+    .home-page-content-area p{
+        font-size: 12px;
+        line-height: 23px;
+    }
+    button#ourServices{
+        height: 30px;
+    }
+    #carpetBox{
+        @include span-columns(6 of 12);
+    }
+    #furnitureBox{
+        @include span-columns(6 of 12);
+        margin-right:0;
+    }
+    #rugBox{
+        @include span-columns(6 of 12);
+    }
+    #janitorialBox{
+        @include span-columns(6 of 12);
+    }
+    #qualitySection{
+        background-position-y: 47px;
+        background-position-x: 50%;
+        height: 172px;
+    }
+    .blogArea{
+        .blogContent{
+            @include span-columns(6 of 12);
+            h2{
+                font-size: 14px;
+                margin-top: 7px;
+            }
+        }
+        .blogImage{
+            @include span-columns(6 of 12);
+        }
+        span.entry-date {
+            margin-top: -8px;
+            h4{
+                font-size: 10px;
+                margin: 8px 0 4px 8px;
+            }
+            img{
+               margin: 6px 2px 0 10px; 
+               height: 12px;
+               width: auto;
+            }
+        }
+        p{
+            line-height: 19px;
+            font-size: 12px; 
+        }
+        button#blogButton{
+            p{
+                font-size: 18px;
+                margin: 2px 0;
+            }
+        }
+    }
+    #aboutAction{
+        #aboutFast{
+            @include span-columns(4 of 12);
+        }
+        #aboutSatisfaction{
+            @include span-columns(4 of 12);
+        }
+        #aboutPricing{
+            @include span-columns(4 of 12);
+            margin-right: 0;
+        }
+    }
+    #scheduleBox{
+        position: relative;
+        bottom: -7px;
+        #scheduleArea{
+            @include span-columns(6 of 12);
+            span#upperAbout{
+                p{
+                    font-size: 12px;
+                }
+            }
+            h2{
+               font-size: 32px; 
+            }
+        }
+        #scheduleImage{
+            @include span-columns(6 of 12);
+        }
+        #scheduleImage {
+            img{
+                width: auto;
+                height: 200px;
+                position: relative;
+                right: 3px; 
+                bottom: -6px;
+            }
+            
+        }
+    }
+    /*========= ous service page========*/
+    .ourServicesSection{
+        .bannerArea{
+            min-height: 185px;
+        }
+        .servicesRightSide{
+            padding: 19px 0 0 30px;
+            ul{
+                margin: 3px 0 0 0px;
+            }
+        }
+    }
+    #qualitySection2{
+        #qualityHeader{
+            @include span-columns(6 of 12);
+            
+            
+        }
+        #qualityImage{
+            @include span-columns(6 of 12);
+            img{
+                margin-top:90px;
+            }
+        }
+    }
+     /*========= contact page=======*/
+    .bannerArea2{
+        min-height: 180px;
+    }
+    .contactBox{
+        .leftSide{
+        @include span-columns(6 of 12);
+        h3{
+            text-align: right;
+            margin: 6px 12px 0 0px;
+        }
+        a{
+            float: right;
+            margin: 17px 12px 0 0;
+            clear: both;
+        }
+        p#emailLink{
+            margin:0px 0px 0 0;
+            position: relative;
+            top: -35px;
+            right: 0;
+        }
+        }
+        .rightSide{
+            @include span-columns(6 of 12);
+            margin-right: 0;
+        }
+    }
+    #rightBorder{
+            border-right: solid 1px $solid-gray;
+            height:80px;
+            margin-top: 10px;
+        }
+   
+    .contactSection {
+        .gform_wrapper form{
+            max-height: 450px
+        }
+        .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium{
+            width: 80%;
+        }
+        input[type="submit"]{
+            position:relative;
+            top:-246px;
+            display: Block !important;
+            margin: 0 auto !important;
+        }
+    } 
+    /*========= single========*/ 
+    .bannerArea3{
+        min-height: 185px;
+    }
+    .blogContent{
+        .blogSocials{
+            ul{
+                @include span-columns(6 of 12);
+                @include shift(3 of 12);
+                li{
+                    margin: 0 12px;
+                }
+            }
+        }
+    }
+    .blogBottom1{
+        @include span-columns(4 of 12);
+        h2{
+            font-size: 15.76px;
+        }
+        span#learnMore {
+            p{
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+    .blogBottom2{
+        @include span-columns(4 of 12);
+         h2{
+            font-size: 15.76px;
+        }
+        span#learnMore {
+            p{
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+    .blogBottom3{
+        @include span-columns(4 of 12);
+         h2{
+            font-size: 15.76px;
+        }
+        span#learnMore {
+            p{
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+    .singleblogs{
+        @include outer-container();
+        
+        .blog{
+            @include span-columns(4 of 12);
+            padding:0;
+            span.entry-date{
+                bottom:120px;
+                font-size: 15px
+            }
+            span#divider{
+                bottom:120px;
+            }
+            h2{
+                a{
+                bottom:130px;   
+                font-size: 12px;
+                }
+            }
+        }
+    }
+    /*========= FAQS ========*/
+    .faqArea {
+        span#faqTitle{
+            font-size: 14px;
+        }
+        h1{
+            font-size:22px;
+        }
+        #accordion, #accordion2, #accordion3{
+            h3{
+                font-size: 12px; 
+                letter-spacing: 1px;
+            }
+        } 
+    }
+   /*========= About ========*/ 
+    .bannerArea4{
+        min-height: 185px;
+    }
+    /*========= single services ========*/
+    #cleaningSection {
+        .cleaning{
+            #column1{
+            @include span-columns(6 of 12);
+            margin-right:0;
+            padding-right: 40px;
+           }
+           #column2{
+               @include span-columns(6 of 12);
+               padding-left: 30px;
+           }
+           .divider{
+                display: inline-block;
+                border-left: solid 1px #ccc;
+                height: 202px;
+                width: 1px;
+                position: absolute;
+                left: 50%;
+                margin-top: 20px;
+           }
+           
+        }
+        
+    }
+    
+    
+    /*========= footer ========*/
+    .footer{
+        .footerLogo{
+            @include span-columns(5 of 12);
+            @include shift(0 of 12);
+            border-right: solid #fff 1px;
+            height: 115px;
+            img.footerImg{
+                width: 180px;
+                display: block;
+                margin: 36px auto 0 auto;
+            }
+        }
+        .footerContact{
+            @include span-columns(3 of 12);
+            @include shift(0 of 12);
+            margin-right:0;
+            padding:0 0 0 5px;
+            h2{
+                font-size:12px;
+                //margin-left: 10px;
+                margin-top: 23px;
+            }
+            span.footerPhone{
+                a{
+                    //margin-left: 10px
+                }                    
+            }
+            span.footerEmail{
+                a{
+                    //margin-left: 10px
+                } 
+            }
+            span.footerMap{
+                a{
+                    //margin-left: 10px
+                } 
+            }
+        }
+        .footerSocials{
+            @include span-columns(4 of 12);
+            h2{
+                font-size: 12px;
+            }
+            ul{
+                width: 98%;
+            }
+            img.footerSocialImg{
+                margin: 0px 3px;
+                height: 16px;
+                width: auto;
+            }
+        }
+        p.copyright{
+            padding: 0;
+            text-align: right;
+            margin-right: 10px;
+        }
+    }
+    
+    
+}
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:6600px iPhone6 Landscape
+\*--------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width:660px){
+    .freeBox{
+        @include span-columns(6 of 12);
+        @include shift(3 of 12);
+        margin-top: 50px;
+    }
+    #qualitySection {
+        background-position-y: 45px;
+        height: 194px;
+    }
+    .blogArea{
+        span.entry-date{
+            h4{
+                margin: 9px 0 4px 36px;
+            }
+        }
+        p{
+            line-height: 24px;
+            font-size: 14px;    
+        }
+        .blogImage{
+            img{
+                height: 300px;
+            }
+        }
+        
+    } 
+    #cleaningSection{
+        .cleaning {
+            .divider{
+                height: 157px;
+            }
+        }
+    }
+    /*========= our servies=======*/
+    .servicesPostBox{
+         @include outer-container();
+        .our-services-area{
+            @include span-columns(6 of 12);
+            margin-right:0;
+            padding-right:30px;
+            
+            h2{
+                font-size: 30px;
+            }
+            span#servicesUpper {
+                p{
+                    font-size: 17px;
+                    font-weight: 500;
+                    margin: 0px 0 6px 0;
+                }    
+            }
+        }
+        .servicesRightSide{
+            @include span-columns(6 of 12);
+            h2{
+                margin-top: 20px;
+            }
+            ul{
+                li{
+                    line-height: 24px;
+                }
+            }
+            .divider{
+                display: inline-block;
+                border-left: solid 1px #ccc;
+                height: 264px;
+                width: 1px;
+                position: absolute;
+                left: 50%;    
+            }
+        }
+    }
+    
+    .bannerArea2 {
+        min-height: 212px;
+    }
+    /*========= contact ========*/
+     .leftSideForm{
+        position:relative;
+        left:11%;
+        width: 45%;
+        clear: none;
+    }
+    .rightSideForm{
+        //float:right;
+        width:45%;
+        position: relative;
+        left: 54%;
+        top: -325px;
+    }
+    /*========= single ========*/
+    .bannerArea3 {
+        min-height: 212px;
+    }
+     /*========= Fags ========*/
+    
+    .faqArea{
+        #accordion{
+            p{
+                line-height: 21px;
+           }
+        }
+    }
+    /*========= about ========*/
+    .bannerArea4 {
+        min-height: 212px;
+    }
+    /*========= footer ========*/
+    .footer {
+        .footerLogo {
+            img.footerImg {
+                width: 200px;    
+            }
+        }
+    }
+     #qualitySection2{
+        #qualityImage{
+            
+            img{
+                margin-top:56px;
+            }
+        }
+    }
+     .singleblogs{
+        margin-top:60px;
+        
+        .blog{
+            
+            span.entry-date{
+                bottom:145px;
+                font-size: 16px
+            }
+            span#divider{
+                bottom:145px;
+            }
+            h2{
+                a{
+                bottom:150px;   
+                font-size: 12px;
+                }
+            }
+        }
+    }
+   
+}
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:736px   iPhone6 Plus Landscape
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:736px){
+    .blogArea{
+        p{
+            line-height: 33px;
+            font-size: 16px;
+        }
+        .blogImage{
+            img{
+                height: 367px;
+            }
+        }
+    }
+    .footer {
+        .footerLogo {
+            img.footerImg {
+                width: 220px;    
+            }
+        }
+    }
+    #qualitySection2{
+        #qualityImage{
+            
+            img{
+                margin-top:43px;
+            }
+        }
+    }
+    .bannerArea2 {
+        min-height: 234px;
+    }
+    .bannerArea3 {
+        min-height: 234px;
+    }
+    .blogContent {
+        .date {
+            margin-left: 66px ;
+            padding: 0;
+            font-size: 18px;
+            font-weight: 700;
+            position: relative;
+            top: 15px;
+        }
+        h1{
+            a{
+                @include span-columns(8 of 12);
+                font-size: 30px;
+                margin-left: 66px;
+            }
+        }
+        h3{
+            
+            line-height: 40px;
+            font-size: 30px;
+            padding: 0px 80px;
+            text-align: center;
+        }
+        p{
+            font-size: 18px;
+            line-height: 36px;
+            margin-left: 66px;
+                
+            
+        }
+        .blogSocials{
+            ul{
+                li{
+                    margin: 0px 22px;
+                }
+            }
+        }
+    }
+    
+     .returnArea{
+        a{
+            p{
+                font-size: 16px;
+            }
+        }
+    }   
+     /*========= Fags ========*/
+    
+    .faqArea{
+        #accordion, #accordion2, #accordion3{
+            p{
+                font-size: 14px;
+                line-height: 28px;
+           }
+        }
+    }
+    /*========= About ========*/
+    .bannerArea3 {
+        min-height: 234px;
+    }
+    #qualitySection {
+        span#quality {
+            p{
+                font-size: 16px;
+            }
+        }
+        h2{
+            font-size: 30px;
+        }
+    }
+    
+    .aboutSection{
+        .aboutPostBox{
+            .about-content-area{
+                @include span-columns(6 of 12);
+                margin-right:0;
+            }
+            .servicesRightSide{
+                @include span-columns(6 of 12);
+                margin-top: 95px;
+                padding-left: 30px;
+                h3{
+                    letter-spacing: 2px;
+                }
+            }
+            
+        }
+        .divider{
+            display: inline-block;
+            border-left: solid 1px #ccc;
+            height: 284px;
+            width: 1px;
+            position: absolute;
+            left: 50%;    
+        }
+        #aboutAction2{
+            #aboutFast{
+                @include span-columns(4 of 12);
+                h3{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 10px;
+                    padding: 0 55px;
+                }
+            }
+            #aboutSatisfaction{
+                @include span-columns(4 of 12);
+                 h3{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 10px;
+                    padding: 0 55px;
+                }
+            }
+            #aboutPricing{
+                @include span-columns(4 of 12);
+                 h3{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 10px;
+                    padding: 0 55px;
+                }
+            }
+        } 
+        #qualitySection {
+            background-position-y: 42px;
+            span#quality {
+                p{
+                    font-size: 16px;
+                }
+            }
+            h2{
+                font-size: 30px;
+            }
+            span#quality-lower {
+                p{
+                    font-size: 12px;    
+                }
+            }
+        }
+    }
+    #cleaningSection {
+        .cleaning {
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    .singleblogs{
+        margin-top:60px;
+        
+        .blog{
+            
+            span.entry-date{
+                bottom:145px;
+                font-size: 16px;
+                p{
+                    margin-left:0;
+                }   
+            }
+            span#divider{
+                bottom:145px;
+            }
+            h2{
+                a{
+                bottom:150px;   
+                font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:768px iPad Portrait
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:768px){
+    .logo{
+        @include span-columns(4 of 12)
+        @include shift(0 of 12);
+    }
+    span#scheduleButtonHeader{
+        @include span-columns(4 of 12);
+        @include shift(0 of 12);
+        margin-right:0;
+        
+        button.scheduleButton{
+            margin-top: 28px;   
+        }
+    }
+    span#contactButtonHeader{
+        @include span-columns(4 of 12);
+        @include shift(0 of 12);
+        button.contactButton{
+            margin-top: 28px;
+        }
+    }
+    nav{
+        ul.menu{
+            list-style-type: none;
+            border-top: solid 1px $solid-gray;
+            display: flex;
+            justify-content: space-around;
+            margin: 7px 0 0 0;
+            padding: 10px 0 0 0;
+            li{
+                float: left;
+                text-transform: uppercase;
+                color:$solid-gray;
+                color: #7c7b7c;
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+    }
+    .nav li.current-menu-item>a, .nav li a:hover {
+        color: $solid-red;
+    }
+    .bannerArea{
+        height: 300px;
+    }
+    .home-page-content-area {
+        span#upperText{
+            top:13px;
+        }
+        h2{
+            margin-top: 6px;
+        }
+        p{
+            font-size: 16px;
+        }
+        
+    }
+    #qualitySection{
+        margin-bottom: 63px;
+    }
+    .blogArea{
+        .blogContent{
+            h2{
+                font-size: 21px;
+            }
+        }
+    }
+    #aboutAction {
+        span#upperAbout {
+            p {
+                font-size: 16px;
+            }
+        }
+        h2{
+            font-size: 45px;
+        }
+        span#lowerAbout {
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    #scheduleBox{
+        bottom:0;
+        
+        #scheduleArea {
+            img.qualityIcon{
+                margin: 20px auto 0 auto;
+            }
+        } 
+    }
+    /*========= our services ========*/   
+    .ourServicesSection {
+        margin-top: 0px;
+    }
+     /*========= contact ========*/
+    .bannerArea2 {
+        min-height: 245px;
+    }
+    /*========= single ========*/
+    .bannerArea3 {
+        min-height: 245px;
+    }
+    .blogContent {
+        max-width: 1040px;
+        .blogSocials {
+            ul{
+                li{
+                    margin: 0px 40px;
+                }
+            }
+        }
+    }
+    .blogBottom1{
+        height: 200px;
+        h2{
+            font-size: 21.76px;
+        }
+        span#learnMore {
+            p{
+                font-size: 14px;
+                padding: 0 20px;
+                margin: 0;
+            }
+        }
+    }
+    .blogBottom2{
+        height: 200px;
+        h2{
+            font-size: 21.76px;
+        }
+        span#learnMore {
+            p{
+                font-size: 14px;
+                padding: 0 20px;
+                margin: 0;
+            }
+        }
+    }
+    .blogBottom3{
+        height: 200px;
+        h2{
+            font-size: 21.76px;
+        }
+        span#learnMore {
+            p{
+                font-size: 14px;
+                padding: 0 20px;
+                margin: 0;
+            }
+        }
+    }
+   /*========= Faqs ========*/ 
+   .faqArea{
+       span#faqTitle{
+           font-size: 18px;
+       }
+       h1{
+           font-size: 30px;
+       }
+       h2{
+           font-size: 22px;
+       }
+       #accordion, #accordion2, #accordion3{
+           h3{
+               font-size: 16px;
+               letter-spacing: 2px;
+           }
+          
+       }
+   }
+   /*========= About ========*/
+    .bannerArea3 {
+        min-height: 245px;
+    } 
+    .aboutSection {
+        #qualitySection{
+            height: 224px;
+        }
+    }
+   /*========= footer ========*/
+    .footer {
+        .footerLogo {
+            img.footerImg {
+                width: 270px;    
+            }
+        }
+    }
+}
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:1024px       ipad Landscape
+\*--------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width:1024px){
+    span#contactButtonHeader {
+        button.contactButton{
+            width: 167px;
+            position: relative;
+            left: 59px;
+        }
+    }
+    .bannerArea {
+        height: 327px;
+    }
+    #vanPix {
+        .home-page-content-area{
+            padding: 0 35px;   
+        }
+        p{
+            line-height: 32px;    
+        }
+    }
+    #carpetBox{
+        height: 200px;  
+        h2{
+            font-size: 29.76px;
+        }
+        p{
+            font-size:18px;
+        }
+    }
+    #furnitureBox{
+        height: 200px;
+        h2{
+            font-size: 29.76px;
+        }
+        p{
+            font-size:18px;
+        }
+    }
+    #rugBox{
+        height: 200px;
+        h2{
+            font-size: 29.76px;
+        }
+        p{
+            font-size:18px;
+        }
+    }
+    #janitorialBox{
+        height: 200px; 
+        h2{
+            font-size: 29.76px;
+        }
+        p{
+            font-size:18px;
+        }
+    }
+    #qualitySection {
+        background-position-y: 46px;
+        height: 268px;
+        span#quality {
+            p{
+                font-size: 20px;    
+            }
+        }
+        h2{
+            font-size: 49.76px;
+        }
+    }
+    .blogArea {
+        max-width: 950px;
+        .blogContent {
+            h2{
+                font-size: 28px;    
+            }
+        }
+        span.entry-date{
+            h4{
+                font-size: 16px;
+                font-weight: 200;
+            }
+            img{
+                margin: 8px 2px 0 41px;
+                height: 19px;
+                width: auto;    
+            }
+        }
+        p{
+            line-height: 34px;
+            font-size: 20px;
+            padding: 0 15px;
+        }
+        button#blogButton{
+            position: relative;
+            top: 20px;    
+        }
+        .blogImage {
+            img{
+                height: 404px;
+            }
+        }
+        
+    }
+    #aboutAction {
+        min-height: 480px;
+        span#upperAbout {
+            p{
+                font-size: 20px;
+            }
+        }
+        h2{
+            font-size: 49.76px;
+        }
+        span#lowerAbout {
+            p{
+                font-size: 18px; 
+                margin: 0 0 30px 0;
+            }
+        }
+        button#aboutButton{
+            position: relative;
+            top:70px;
+        }
+    }
+    #scheduleBox{
+        margin-top: 40px;
+        #scheduleArea {
+            span#upperAbout {
+                
+                p{
+                    font-size: 19px;
+                    font-weight: 200;    
+                }
+            }
+            h2{
+                font-size: 49px;    
+            }
+        }
+        #scheduleImage {
+            img{
+                height: 292px;    
+            }
+        }
+    }
+    /*============== contact ==========================*/
+    .bannerArea2 {
+        min-height: 330px;
+    }
+    
+    /*============== single ===========================*/
+    .bannerArea3 {
+        min-height: 330px;
+    }
+    /*============== our Services ===========================*/
+    .servicesPostBox {
+        .servicesRightSide {
+            .divider{
+               height: 223px; 
+            }
+        }
+    }
+    
+    
+    
+     /*============== About ===========================*/
+    .bannerArea4 {
+        min-height: 330px;
+    }
+    .aboutSection {
+        #qualitySection{
+            height: 250px;
+            span#quality p{
+                font-size: 22px;
+            }
+            h2{
+                font-size: 42px;
+            }
+            span#quality-lower p{
+                font-size: 17px;
+            }
+        }
+        
+        #aboutAction2{
+            position: relative;
+            top: -45px;
+            #aboutFast p{
+                font-size: 12px;
+            }
+            #aboutSatisfaction p{
+                font-size: 12px;
+            }
+            #aboutPricing P{
+                font-size: 12px;
+            }
+        }
+        .aboutPostBox {
+            .about-content-area{
+                padding: 0 30px;
+            }
+            .servicesRightSide{
+                padding-left:60px;
+            }
+        }
+    }
+    /*============== service single==========================*/
+    #cleaningSection{
+        #getStarted{
+            margin-top: 70px;
+        }
+    }
+    
+    
+    /*============== footer ==========================*/
+    .footer{
+        min-height: 250px;
+        .footerLogo{
+            min-height: 192px;
+            img.footerImg{
+                width: 315px;
+                margin: 56px auto 0 auto;
+            }
+        }
+        .footerContact {
+            h2{
+                font-size: 20px;
+                margin-top: 40px;
+            }
+            a{
+                font-size: 16px;
+            }
+        }
+        span.footerEmail{
+            margin-bottom: 20px;
+        }
+        .footerSocials {
+            h2{
+                font-size: 18px;
+                margin-top: 90px
+            }
+            img.footerSocialImg{
+                margin: 0px 10px;
+                height: 30px;
+                width: auto;
+            }
+        }
+    }
+    
+ /*============== Faqs ==========================*/   
+     .returnArea{
+        top: 70px;
+        margin-bottom: 100px;
+        a{
+            p{
+                font-size: 16px;
+            }
+        }
+    } 
+    .singleblogs{
+        
+        
+        .blog{
+            
+            span.entry-date{
+                bottom:220px;
+                font-size: 20px;
+                p{
+                    margin-left:0;
+                }   
+            }
+            span#divider{
+                bottom:220px;
+            }
+            h2{
+                a{
+                bottom:230px;   
+                font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:1140px
+\*--------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width:1140px){
+    .bannerArea {
+        height: 386px;
+    }
+    .bannerArea2 {
+        min-height: 386px;
+    }
+    .bannerArea3 {
+        min-height: 386px;
+    } 
+    bannerArea4 {
+        min-height: 386px;
+    } 
+    .freeBox{
+        margin-top: 60px; 
+    }
+    #qualitySection{
+        height: 345px;
+    }
+    .aboutSection {
+        #qualitySection{
+            height: 280px;
+            span#quality{ 
+               p{
+                    font-size:28px;
+               }
+               
+            }
+            h2{
+                   font-size: 52px;
+               }
+            span#quality-lower p{
+               font-size: 20px;
+           }
+        }
+    }
+    
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:1240px
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:1240px){
+    .bannerArea {
+        height: 426px;
+    }
+    .bannerArea2 {
+    min-height: 426px;
+}
+    .bannerArea3 {
+        min-height: 426px;
+    } 
+    .bannerArea4 {
+        min-height: 426px;
+    } 
+    .freeBox {
+        margin-top: 70px;
+    }
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:320px
+\*--------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:320px
+\*--------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:320px
+\*--------------------------------------------------------------------------------------------*/

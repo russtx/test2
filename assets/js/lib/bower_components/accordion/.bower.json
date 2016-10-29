@@ -1,0 +1,41 @@
+{
+  "name": "accordion",
+  "version": "2.3.0",
+  "homepage": "https://github.com/OpenSourceWorkflow/accordion",
+  "authors": [
+    "Markus Falk <mail@markus-falk.com>"
+  ],
+  "description": "Simple Accordion Module",
+  "main": "accordion.js",
+  "keywords": [
+    "accordion",
+    "aria"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jquery": ">1.7.0",
+    "jquery.exists": "~1.0.0"
+  },
+  "ignore": [
+    "*.html",
+    "*.md",
+    ".gitignore",
+    "gruntfile.js",
+    "package.json",
+    "config.js"
+  ],
+  "_release": "2.3.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.3.0",
+    "commit": "916e4f13827839307a9b713c73b1d56905437ea7"
+  },
+  "_source": "https://github.com/OpenSourceWorkflow/accordion.git",
+  "_target": "^2.3.0",
+  "_originalSource": "accordion",
+  "_direct": true
+}
